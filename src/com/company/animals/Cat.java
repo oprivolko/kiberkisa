@@ -1,5 +1,7 @@
 package com.company.animals;
 
+import java.util.Objects;
+
 public class Cat extends Animal{
     String usiki="maximalno";
     @Override
@@ -14,6 +16,18 @@ public class Cat extends Animal{
     public Cat(String color, String weight, String type, String length, String usiki) {
         super(color, weight, type, length);
         this.usiki = usiki;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        return super.equals(o);//сравнить по полям из супера (4 поля)
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), usiki);
     }
 
     @Override
