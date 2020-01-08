@@ -1,0 +1,10 @@
+2020-01-07 15:46:25 INFO  JSONMapper:39 - Это информационное сообщение!
+2020-01-07 15:53:30 INFO  JSONMapper:39 - Это информационное сообщение!
+2020-01-07 15:57:49 INFO  JSONMapper:35 - objects serilized
+2020-01-07 15:57:49 INFO  JSONMapper:36 - success!
+2020-01-08 22:21:21 INFO  XMLMapper:36 - objects serilized
+2020-01-08 22:21:21 INFO  XMLMapper:37 - success!
+2020-01-08 22:33:33 INFO  XMLMapper:36 - objects serilized
+2020-01-08 22:33:33 INFO  XMLMapper:37 - success!
+2020-01-08 23:07:37 INFO  XMLMapper:38 - objects serilized to xml
+2020-01-08 23:07:37 INFO  XMLMapper:39 - success (xml)!
